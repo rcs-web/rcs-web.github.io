@@ -502,6 +502,13 @@
 		padding-right: 0;
 	}
 
+	.flat-portfolio .portfolio-filter > li {
+		display: inline-block;
+		margin-left: -15px;
+		margin-top: 20px;
+		text-align:center;
+	}
+
 	.flex-direction-nav a {
 		top: 50%;
 		margin-top: -10px;
@@ -559,6 +566,13 @@
 	}
 }
 
+@media only screen and (max-width: 516px) {
+	.flat-portfolio .portfolio-filter > li {
+		display: inline-block;
+		margin-left: -20px;
+		text-align:center;
+	}
+}
 @media (max-width: 320px) {	
 	.flat-team.style1.img-small .avatar,
 	.flat-team.style1.img-small .content {
