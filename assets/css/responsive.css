@@ -421,6 +421,18 @@
 		font-size: 30px;
 	}
 
+	.item-wrap {
+		width: 100%;
+		height: auto;
+	}
+
+	.item-wrap img {
+		max-width:100%;
+		height:auto;
+		object-fit:cover;
+		margin-top: 10%
+	}
+
 	.page-title-heading h1 {
 		margin-top: -15px;
 	}

@@ -1095,16 +1095,22 @@
 }
 
 .flat-portfolio.v2 .item .item-caption {
-	position: absolute;
-	bottom: -30px;	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-       opacity: 0;
-        filter: alpha(opacity=0); 
-	width: 100%;	
-	text-align: center;
-	background-color: #000000!important;
-	color: #fff;
-	padding: 10px 0 7px 0;
+	background-color: rgba(0, 0, 0, .8);
+    backface-visibility: hidden;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 101%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    transform: scale(1.2);
+    transition: .6s ease;
+    opacity: 0;
 }
 
 .flat-portfolio.v2 .item .link {
@@ -1213,15 +1219,7 @@
 }
 
 .flat-portfolio .item .item-caption {
-	position: absolute;
-	bottom: 100%;	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-       opacity: 0;
-        filter: alpha(opacity=0); 
-	width: 100%;
-	text-align: center;
-	transition-delay: 0.5s;
-	     transition: all ease 0.4s;
+	
 }
 
 .flat-portfolio .item .title-portfolio {
@@ -1337,7 +1335,7 @@
 }
 
 .flat-portfolio .item:hover .item-caption {
-  	bottom: 40%;  
+  	height:100%; 
   	opacity: 1;
 }
 
