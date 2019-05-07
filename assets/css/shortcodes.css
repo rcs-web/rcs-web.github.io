@@ -947,7 +947,6 @@
 .flat-portfolio .portfolio-filter > li:before {
     position: absolute;	
 	font-family: 'Simple-Line-Icons';
-	content: "\e06a";	
 	font-style: normal;
 	color: #fff;
 	font-size: 3px;
