@@ -107,6 +107,7 @@
                                 <li><a data-filter=".videos" href="#">Videos </a></li>
                             </ul><!-- /.project-filter -->
                         </div>
+                        <button onclick="myFunction()">Try it</button>
                         <div class="row" >
                             <div class="col-md-12">
                                 <div class="portfolio-wrap clearfix">
@@ -183,10 +184,45 @@
                                             </div>  
                                         </div><!-- /.item-wrap -->
                                     </div><!-- /.portfolio-item -->
+                                    <div id="myDIV" style="display: none;width:100%;">
+                                        <div class="item dental webdesign photoshop item-space">
+                                            <div class="item-wrap">
+                                                <img src="images/portfolio/v2.13.jpg" alt="image" class="transition">
+                                                <div class="item-caption">
+                                                    <h6>Evento 4</h6>
+                                                </div>  
+                                            </div><!-- /.item-wrap -->
+                                        </div><!-- /.portfolio-item -->
+                                        <div class="item dental webdesign photoshop item-space">
+                                            <div class="item-wrap">
+                                                <img src="images/portfolio/v2.14.jpg" alt="image" class="transition">
+                                                <div class="item-caption">
+                                                    <h6>Evento 5</h6>
+                                                </div>  
+                                            </div><!-- /.item-wrap -->
+                                        </div><!-- /.portfolio-item -->
+                                        <div class="item dental webdesign photoshop item-space">
+                                            <div class="item-wrap">
+                                                <img src="images/portfolio/v2.15.jpg" alt="image" class="transition">
+                                                <div class="item-caption">
+                                                    <h6>Evento 6</h6>
+                                                </div>  
+                                            </div><!-- /.item-wrap -->
+                                        </div><!-- /.portfolio-item -->
 
+                                        <div class="item dental webdesign photoshop item-space">
+                                            <div class="item-wrap">
+                                                <img src="images/portfolio/v2.16.jpg" alt="image" class="transition">
+                                                <div class="item-caption">
+                                                    <h6>Evento 7</h6>
+                                                </div>  
+                                            </div><!-- /.item-wrap -->
+                                        </div><!-- /.portfolio-item -->
+                                    </div>
                                 </div><!-- /.portfolio-wrap -->
                             </div><!-- /.col-md-12 --> 
                         </div><!-- /.row --> 
+                        
                     </div>                
                 </div><!-- /.flat-projects -->   
             </section>
@@ -722,6 +758,16 @@
     <script type="text/javascript" src="javascript/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="javascript/slider.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script>
 
 </body>
 </html>
